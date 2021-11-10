@@ -1,8 +1,8 @@
 .reviews {
   background-image: linear-gradient(
       45deg,
-      rgba(32, 124, 229, 0.6) 0%,
-      rgba(19, 212, 42, 0.6) 100%
+      rgba(205, 227, 252, 0.6) 0%,
+      rgba(92, 197, 238, 0.6) 100%
     ),
     url("http://www.colleges-fenway.org/wp-content/uploads/2021/09/travel-world.jpeg");
   background-size: cover;
