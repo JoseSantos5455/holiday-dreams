@@ -45,9 +45,11 @@ const ManageAllOrders = () => {
           }
           Swal.fire(
             'Deleted!',
-            'Your Booking has been deleted.',
+            "User's Booking has been deleted.",
             'success'
-          )
+          ).then(function () {
+            window.location = "/my-orders";
+          });
         }
       })
   };

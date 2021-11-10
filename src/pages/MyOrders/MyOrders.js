@@ -47,12 +47,15 @@ const MyOrders = () => {
             const responseData = response.json;
 
             loadUserOrders();
+
           }
           Swal.fire(
             'Deleted!',
             'Your Booking has been deleted.',
             'success'
-          )
+          ).then(function () {
+            window.location = "/my-orders";
+          });
         }
       })
   };
