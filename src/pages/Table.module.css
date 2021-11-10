@@ -1,0 +1,114 @@
+.orders {
+  margin: 99px 0 35px;
+}
+.main-datatable {
+  padding: 0px;
+  border: 1px solid #f3f2f2;
+  border-bottom: 0;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_body {
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.main-datatable .row {
+  margin: 0;
+}
+
+.add_flex {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0px;
+}
+.main-datatable .dataTable.no-footer {
+  border-bottom: 1px solid #eee;
+}
+.main-datatable .cust-datatable thead {
+  background-color: #f9f9f9;
+}
+.main-datatable .cust-datatable > thead > tr > th {
+  border-bottom-width: 0;
+  color: #443f3f;
+  font-weight: 600;
+  padding: 16px 15px;
+  vertical-align: middle;
+  padding-left: 18px;
+  text-align: center;
+}
+.main-datatable .cust-datatable > tbody td {
+  padding: 10px 15px 10px 18px;
+  color: #333232;
+  font-size: 16px;
+  font-weight: 500;
+  word-break: break-word;
+  border-color: #eee;
+  text-align: center;
+  vertical-align: middle;
+}
+.main-datatable .cust-datatable > tbody tr {
+  border-top: none;
+}
+.main-datatable .table > tbody > tr:nth-child(even) {
+  background: #f9f9f9;
+}
+.mark {
+  background-color: #ffffff;
+  color: green;
+  border-color: green;
+  border-style: double;
+}
+.mark:hover {
+  color: #28b487;
+}
+.mode {
+  padding: 4px 10px;
+  line-height: 13px;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+.mode_on {
+  background-color: #28b487;
+}
+.mode_off {
+  background-color: #f0ff67;
+  color: black;
+}
+.mode_email {
+  background-color: #679cc1;
+}
+.delete {
+  fill: #d11a2a;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1400px) {
+  .overflow-x {
+    overflow-x: scroll;
+  }
+  .overflow-x::-webkit-scrollbar {
+    width: 5px;
+    height: 6px;
+  }
+  .overflow-x::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 8px;
+  }
+  .overflow-x::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+}

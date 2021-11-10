@@ -1,0 +1,78 @@
+.formContainer {
+  margin-top: 99px;
+  margin-bottom: 35px;
+}
+
+.form {
+  border: 2px solid #ababab;
+  border-radius: 12px;
+  padding: 30px 42px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 35px;
+  color: #000000;
+}
+.remember {
+  font-weight: 500;
+}
+.forgotPassword {
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  color: #679cc1;
+}
+.forgotPassword:hover {
+  color: #679cc1;
+  text-decoration: none;
+}
+.haveAccount {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.formSubmitBtn {
+  width: 100%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(126, 213, 111, 0.8),
+    rgba(40, 180, 133, 0.8)
+  );
+  color: #fff;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 30px 0 15px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+.formSubmitBtn:hover {
+  background: #fff;
+  color: #679cc1;
+  border: 1px solid #7ed56f;
+}
+.input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-weight: 500;
+}
+.input:focus {
+  box-shadow: none;
+}
+.label {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+@media only screen and (max-width: 576px) {
+  .forgotPassword {
+    margin-top: 12px;
+  }
+}

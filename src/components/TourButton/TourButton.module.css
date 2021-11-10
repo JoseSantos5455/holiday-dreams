@@ -1,0 +1,96 @@
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.btn--lg {
+  padding: 0.8rem 2.5rem;
+}
+.btn:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover::after {
+  opacity: 0;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn--white {
+  background-color: #679cc1;
+}
+.btn--white:hover{
+  background-color: #ffffff;
+  color: #679cc1;
+}
+.btn--white:hover a{
+  color: #679cc1;
+}
+.btn--text--white:hover {
+  color: #679cc1;
+}
+
+.btn--white::after {
+  background-color: #679cc1;
+  color:#ffffff
+}
+
+.btn--green {
+  background-color: #679cc1;
+  color: #fff;
+}
+
+.btn--green::after {
+  background-color: #679cc1;
+}
+
+.btn-text:link,
+.btn-text:visited {
+  color: #679cc1;
+  display: inline-block;
+  text-decoration: none;
+  padding: 3px;
+  font-size: 1.6rem;
+  transition: all 0.2s;
+  border-bottom: 1px solid #679cc1;
+}
+
+.btn-text:hover {
+  background-color: #679cc1;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0px);
+}

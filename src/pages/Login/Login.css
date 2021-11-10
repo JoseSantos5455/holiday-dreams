@@ -1,0 +1,13 @@
+.login-card{
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.459);
+}
+.login-card h3{
+    font-weight: 700;
+}

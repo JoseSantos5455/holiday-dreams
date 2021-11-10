@@ -1,0 +1,58 @@
+.reviews {
+  background-image: linear-gradient(
+      45deg,
+      rgba(32, 124, 229, 0.6) 0%,
+      rgba(19, 212, 42, 0.6) 100%
+    ),
+    url("http://www.colleges-fenway.org/wp-content/uploads/2021/09/travel-world.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  margin-top: 60px;
+  background-attachment: fixed;
+}
+.review-item {
+  display: block;
+  position: relative;
+  background: white;
+  padding: 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  
+  border-radius: 5px;
+  
+}
+
+.review-item .user-img img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50% 50% 50% 50%;
+  margin-right: 12px;
+}
+
+.review-item .name {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #444;
+}
+
+.review-item .position {
+  font-size: 16px;
+  color: #669bbf;
+  color: #669bbf;
+}
+
+.review-item .text .star {
+  color: #669bbf;
+}
+
+.star {
+  color: #669bbf;
+}

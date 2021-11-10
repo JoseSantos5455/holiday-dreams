@@ -1,0 +1,41 @@
+.tourBanner {
+  height: 38vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 9vw), 0 100%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-tertirary {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  /* font-weight: 300; */
+}
+.heading-tertirary span {
+  line-height: 1;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  background-color: #91caf06e;
+}
+
+.heading-tertirary {
+  font-size: 2.5rem;
+  text-align: center;
+  /* width: 70%; */
+  margin: 0 auto;
+  clip-path: none;
+}
+@media screen and (max-width: 1200px) {
+  .tourBanner {
+    padding: 120px 0 99px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading-tertirary {
+    font-size: 3.5rem;
+  }
+}

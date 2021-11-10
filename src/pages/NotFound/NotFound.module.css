@@ -1,0 +1,29 @@
+.notFound {
+  margin: 99px 0 35px;
+}
+.notFoundImg {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.notFoundBtn {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(126, 213, 111),
+    rgb(40, 180, 133)
+  );
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 12px 26px;
+  transition: all 0.3s ease;
+  outline: none;
+  font-weight: 500;
+}
+.notFoundBtn:hover {
+  background: #fff;
+  color: rgb(40, 180, 133);
+  border: 1px solid rgb(126, 213, 111);
+}
+
